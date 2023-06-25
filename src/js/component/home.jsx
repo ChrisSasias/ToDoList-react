@@ -22,7 +22,7 @@ const Home = () => {
         <input
           type="text"
           value={ingreso}
-          maxlength="38"
+          maxlength="32"
           onChange={(event) => setIngreso(event.target.value)}
           onKeyDown={handleSubmit}
         />

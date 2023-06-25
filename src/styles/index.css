@@ -1,12 +1,63 @@
+body {
 
-/* 
+  background-image: url(https://m.media-amazon.com/images/M/MV5BNzkxZGVhY2MtOWExZi00YjBjLWE5ZDQtNzMxYzEwNmQ5MzNjXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-*/
+.container-list {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(97, 83, 83, 0.5);
+  backdrop-filter: blur(10px);
+  opacity: 0.7;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: solid rgb(67, 50, 50) 1px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.clear {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
